@@ -21,7 +21,14 @@ These notes help to aid my short term memory.
 - classes are high level
 - a class can implement interfaces
 
+## Resources
 
+### TypeScript Programming Language
+- https://www.typescriptlang.org/
+- https://www.typescriptlang.org/docs/
+
+#### The TypeScript Handbook
+  - https://www.typescriptlang.org/docs/handbook/intro.html
 
 
 
