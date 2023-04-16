@@ -19,7 +19,7 @@ These notes help to aid my short term memory.
 
 ### Unions
 - A simple union:
-```java
+```typescript
 type Union = "X" | "Y" | "Z";
 ```
 
