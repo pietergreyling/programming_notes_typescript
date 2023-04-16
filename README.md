@@ -17,6 +17,10 @@ These notes help to aid my short term memory.
 - interfaces can be merged and remain the same interface
 - interfaces can implement multiple interfaces
 
+### Classes
+- classes are high level
+- a class can implement interfaces
+
 
 
 
