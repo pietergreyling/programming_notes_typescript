@@ -28,7 +28,8 @@ These notes help to aid my short term memory.
 - https://www.typescriptlang.org/docs/
 
 #### The TypeScript Handbook
-  - https://www.typescriptlang.org/docs/handbook/intro.html
+- https://www.typescriptlang.org/docs/handbook/intro.html
 
-
+#### The TypeScript Online Playground
+- https://www.typescriptlang.org/play
 
