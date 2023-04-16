@@ -10,6 +10,30 @@ These notes help to aid my short term memory.
 - types cannot be augmented
 - types can be composed into a new type
 
+#### Extending types
+- https://blog.logrocket.com/extending-object-like-types-interfaces-typescript
+
+```typescript
+type ToDoListItem = {
+  title: string;
+  completedDate: Date | null;
+}
+type ToDoList = {
+  todos: ToDoListItem[];
+}
+type CalendarEvent = {
+  title: string;
+  start: Date;
+  end: Date;
+}
+type Calendar = {
+  events: CalendarEvent[];
+}
+type AppState = ToDoList & Calendar & {
+  modified: Date;
+}
+```
+
 ### Interfaces
 - an interface is high level
 - interfaces are open
@@ -57,5 +81,14 @@ enum Direction {
 
 #### Unions and Intersection Types
 - https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
+- https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
 
+#### Type vs Interface in TypeScript
+- https://blog.bitsrc.io/type-vs-interface-in-typescript-cf3c00bc04ae
+
+#### Exploring the satisfies operator in TypeScript
+- https://dev.to/logrocket/exploring-the-satisfies-operator-in-typescript-22ab
+
+#### Extending object-like types with interfaces in TypeScript
+- https://blog.logrocket.com/extending-object-like-types-interfaces-typescript
 
