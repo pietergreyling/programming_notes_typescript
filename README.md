@@ -2,7 +2,7 @@
 
 These notes help to aid my short term memory.
 
-## Types, Interfaces, Unions, Classes!
+## Types, Interfaces, Unions, Enums, Classes!
 
 ### Types
 - a type is low level
@@ -25,6 +25,19 @@ type Union = "X" | "Y" | "Z";
 
 - A union type describes a value that can be one of several types. We use the vertical bar ( | ) to separate each type, so number | string | boolean is the type of a value that can be a number , a string , or a boolean.
   - https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
+
+### Enums
+
+- https://www.typescriptlang.org/docs/handbook/enums.html
+
+```typescript
+enum Direction {
+  Up = 1,
+  Down,
+  Left,
+  Right,
+}
+```
 
 ### Classes
 - classes are high level
