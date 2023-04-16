@@ -18,6 +18,11 @@ These notes help to aid my short term memory.
 - interfaces can implement multiple interfaces
 
 ### Unions
+- A simple union:
+```java
+type Union = "X" | "Y" | "Z";
+```
+
 - A union type describes a value that can be one of several types. We use the vertical bar ( | ) to separate each type, so number | string | boolean is the type of a value that can be a number , a string , or a boolean.
   - https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
 
