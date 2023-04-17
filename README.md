@@ -28,15 +28,22 @@ $ npm -v
 
 ### Install TypeScript
 
-
 #### Installing TypeScript globally
 ```shell
 npm install -g typescript
 ```
-
+- Linux
+```shell
+sudo npm install -g typescript
+```
 #### Installing TypeScript into your current project
 ```shell
 $ npm install typescript --save-dev
+```
+
+- Checking your TypeScript version
+```shell
+$ tsc -v                        
 ```
 
 ## Types, Interfaces, Unions, Enums, Classes!
