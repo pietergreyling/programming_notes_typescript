@@ -5,22 +5,22 @@ These notes help to aid my short term memory.
 ## Installation
 
 ### Install NPM/NodeJS
-- Installing NPM and Node.js via a package manager
-  - https://nodejs.org/en/download/package-manager
+Installing NPM and Node.js via a package manager
+- https://nodejs.org/en/download/package-manager
 
-- Installing NPM and Node on Ubuntu Linux
+Installing NPM and Node on Ubuntu Linux
 ```shell
 $ sudo apt update
 $ sudo apt install nodejs npm
   ```
 
-- Installing NPM and Node on macOS with Homebrew
-  - https://nodejs.org/en/download/package-manager#macos
+Installing NPM and Node on macOS with Homebrew
+- https://nodejs.org/en/download/package-manager#macos
 ```shell
 $ brew install node
 ```
 
-- Checking your version of npm and Node.js
+Checking your version of npm and Node.js
 ```shell
 $ node -v
 $ npm -v
